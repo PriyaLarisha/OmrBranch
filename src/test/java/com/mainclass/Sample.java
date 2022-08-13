@@ -42,8 +42,12 @@ public class Sample extends BaseClass {
 		logtoken = login_Output_pojo.getData().getLogtoken();
 
 		String first_name = login_Output_pojo.getData().getFirst_name();
+		String last_name = login_Output_pojo.getData().getLast_name();
 		System.out.println(first_name);
+		System.out.println(last_name);
 		Assert.assertEquals(first_name, "Priya","Verify first name");
+		
+		
 	}
 
 	@Test(priority=2)
