@@ -96,5 +96,5 @@ public class BaseClass {
 	public void addBody(Object body) {
 		reqSpec=reqSpec.body(body);
 	}
-	
+
 }
